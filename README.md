@@ -20,6 +20,11 @@ Projeto exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologi
 <p align="center">
   <img alt="Projeto DevLinks" src=".github/preview.jpg" width="100%">
 </p>
+# Profile_DevLinks
+## About <ion-icon name="glasses-outline"></ion-icon>
+
+ The Profile_DevLinks Project is a profile page with a Links aggregator to use as an online business card. 
+ (O Projeto Profile_DevLinks é uma página perfil com um agregador de Links para usar como cartão de visitas online.)
 
 ## 🚀 Tecnologias
 
