@@ -177,5 +177,6 @@ ul i a:hover {
 #footer {
   padding: 24px 0;
   text-align: center;
+  margin-left: 0 auto;
   font-size: 16px;
 }
