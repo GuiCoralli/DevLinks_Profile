@@ -37,8 +37,7 @@ body {
 }
 
 body {
-
-  background: var(--bg-url)no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
 
@@ -100,9 +99,9 @@ body * {
 .light #switch button {
   animation: slide-in 0.2s forwards;
 }
-#switch button:hover { /* criou um fundo para marcar o botão durante a troca de modo */
+#switch button:hover {
+  /* criou um fundo para marcar o botão durante a troca de modo */
   outline: 8px solid var(--highlight-color);
-
 }
 
 #switch span {
@@ -113,7 +112,9 @@ body * {
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px); /*webkit (suporte) para aceitar em outros navegadores web*/
+  -webkit-backdrop-filter: blur(
+    4px
+  ); /*webkit (suporte) para aceitar em outros navegadores web*/
   border-radius: 9999px; /*tamanho do botão do switch*/
 }
 
@@ -140,7 +141,9 @@ ul li a {
   border-radius: 8px;
 
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px); /*webkit para aceitar em outros navegadores web*/
+  -webkit-backdrop-filter: blur(
+    4px
+  ); /*webkit para aceitar em outros navegadores web*/
 
   text-decoration: none; /*Remove os estilos de uma tag no HTML*/
   font-weight: 500;
@@ -177,7 +180,6 @@ ul i a:hover {
 #social-links a:hover {
   background: var(--highlight-color);
 }
-
 /*footer-Rodapé da página*/
 #footer {
   padding: 24px 0;
@@ -188,18 +190,16 @@ ul i a:hover {
 
 /*media queries*/
 @media (min-width: 700px) {
-    :root {
-      --bg-url: url(./bg-desktopdark.jpg);
-    }
+  :root {
+    --bg-url: url(./bg-desktopdark.jpg);
+  }
 
-    .light {
-      --bg-url: url(./bg-desktoplight.jpg);
-    }
-
-
+  .light {
+    --bg-url: url(./bg-desktoplight.jpg);
+  }
 }
 
-/*Animation*//*Animação que moverá, de forma suave, o elemento do button de 0 para 50% do seu espaço*/
+/*Animation*/ /*Animação que moverá, de forma suave, o elemento do button de 0 para 50% do seu espaço*/
 
 @keyframes slide-in {
   from {
